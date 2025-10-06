@@ -1,16 +1,15 @@
-// Array com as finalizações e suas respectivas imagens
-const submissions = [
-    { sub: "Kimura", imagem: "./assets/kimura.jpeg" },
-    { sub: "Armlock", imagem: "./assets/armlock.jpeg" },
-    { sub: "Triângulo", imagem: "./assets/triangulo.webp" },
-    { sub: "Americana de Pé", imagem: "./assets/americanadepe.webp" },
-    { sub: "Estrangulamento", imagem: "./assets/estrangulamento.jpeg" },
-    { sub: "Guilhotina", imagem: "./assets/guilhotina.webp" },
-    { sub: "LegLock", imagem: "./assets/leg lock.webp" },
-    { sub: "Mão de Vaca", imagem: "./assets/mao de vaca.webp" },
-    { sub: "Mata Leão", imagem: "./assets/mata leao.jpeg" },
-    { sub: "Omoplata", imagem: "./assets/omoplata.webp" },
-
+// CÓDIGO CORRIGIDO
+const finalizacoes = [
+    { nome: 'Arm-lock', imagem: './img/arm-lock.png' },
+    { nome: 'Mata-leão', imagem: './img/mata-leao.png' },
+    { nome: 'Triângulo', imagem: './img/triangulo.png' },
+    { nome: 'Kimura', imagem: './img/kimura.png' },
+    { nome: 'Guilhotina', imagem: './img/guilhotina.png' },
+    { nome: 'Americana', imagem: './img/americana.png' },
+    { nome: 'Katagatame', imagem: './img/katagatame.png' },
+    { nome: 'Chave de calcanhar', imagem: './img/chave-de-calcanhar.png' },
+    { nome: 'Botinha', imagem: './img/botinha.png' },
+    { nome: 'Omoplata', imagem: './img/omoplata.png' },
 ];
 
 
@@ -67,4 +66,5 @@ if (botao) {
 } else {
     // Se o botão não for encontrado, um aviso é exibido no console do navegador.
     console.warn('Elemento com id="botao" não foi encontrado. O script não funcionará como esperado.');
+
 }
