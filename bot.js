@@ -6,11 +6,10 @@ const submissions = [
     { sub: "Americana de Pé", imagem: "./assets/americanadepe.webp" },
     { sub: "Estrangulamento", imagem: "./assets/estrangulamento.jpeg" },
     { sub: "Guilhotina", imagem: "./assets/guilhotina.webp" },
-    { sub: "LegLock", imagem: "./assets/leg lock.webp" },
-    { sub: "Mão de Vaca", imagem: "./assets/mao de vaca.webp" },
-    { sub: "Mata Leão", imagem: "./assets/mata leao.jpeg" },
+    { sub: "LegLock", imagem: "./assets/leg-lock.webp" },
+    { sub: "Mão de Vaca", imagem: "./assets/mao-de-vaca.webp" },
+    { sub: "Mata Leão", imagem: "./assets/mata-leao.jpeg" },
     { sub: "Omoplata", imagem: "./assets/omoplata.webp" },
-
 ];
 
 
@@ -69,5 +68,6 @@ if (botao) {
     console.warn('Elemento com id="botao" não foi encontrado. O script não funcionará como esperado.');
 
 }
+
 
 
