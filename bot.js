@@ -6,9 +6,9 @@
     { sub: "Americana de Pé", imagem: "./Assets/americanadepe.webp" },
     { sub: "Estrangulamento", imagem: "./Assets/estrangulamento.jpeg" },
     { sub: "Guilhotina", imagem: "./Assets/guilhotina.webp" },
-    { sub: "LegLock", imagem: "./Assets/leg-lock.webp" },
-    { sub: "Mão de Vaca", imagem: "./Assets/mao-de-vaca.webp" },
-    { sub: "Mata Leão", imagem: "./Assets/mata-leao.jpeg" },
+    { sub: "LegLock", imagem: "./Assets/leglock.webp" },
+    { sub: "Mão de Vaca", imagem: "./Assets/maodevaca.webp" },
+    { sub: "Mata Leão", imagem: "./Assets/mataleao.jpeg" },
     { sub: "Omoplata", imagem: "./Assets/omoplata.webp" },
 ];
 
@@ -69,6 +69,7 @@ if (botao) {
     console.warn('Elemento com id="botao" não foi encontrado. O script não funcionará como esperado.');
 
 }
+
 
 
 
