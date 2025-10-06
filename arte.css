@@ -9,18 +9,20 @@
 body {
     background-color: #000;
     min-height: 100vh;
-    width: 100vw;
+    width: 100%; /* ALTERAÇÃO: Usar 100% é mais seguro que 100vw para evitar overflow */
     display: flex;
     justify-content: center;
+    overflow-x: hidden; /* Garante que não haja rolagem horizontal */
 }
 
 video.background-video {
     position: fixed;
+    /* ALTERAÇÃO AQUI: Método mais confiável para centralizar e cobrir a tela */
     top: 50%;
-    left: 100%;
-    transform: translate(-110%, -50%);
-    width: auto;
-    height: auto;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100vw;
+    min-height: 100vh;
     object-fit: cover;
     z-index: -2;
     pointer-events: none;
@@ -49,6 +51,7 @@ main {
     align-items: center;
     gap: 20px;
     text-align: center;
+    padding: 0 15px; /* Adiciona um respiro nas laterais em telas pequenas */
 }
 
 
@@ -136,4 +139,14 @@ main {
 figure {
     align-items: baseline;
     padding: 5px 20px;
+}
+@media (max-width: 768px) {
+
+    .titulo {
+        font-size: 50px;
+    }
+
+   
+    .subtitulo {
+        font-size: 24px;
 }
