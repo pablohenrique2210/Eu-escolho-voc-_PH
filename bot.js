@@ -1,4 +1,3 @@
-// Array com as finalizações e suas respectivas imagens
     const submissions = [
     { sub: "Kimura", imagem: "./Assets/kimura.jpeg" },
     { sub: "Armlock", imagem: "./Assets/armlock.jpeg" },
@@ -69,6 +68,7 @@ if (botao) {
     console.warn('Elemento com id="botao" não foi encontrado. O script não funcionará como esperado.');
 
 }
+
 
 
 
