@@ -37,7 +37,7 @@ body::before {
     pointer-events: none;
 }
 
-/* Garante que o main (conteúdo) fique acima do vídeo */
+
 main {
     position: relative;
     z-index: 1;
@@ -59,7 +59,7 @@ main {
     padding:auto;
     border-radius: 1rem;
     overflow: hidden;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 15px rgb(255, 255, 255);
     background: #e444448d;
     position: relative;
     z-index: 1;
@@ -76,7 +76,6 @@ main {
     border-radius: .7rem;
 }
 
-/* Glow efeito atrás */
 .card::after {
     position: absolute;
     content: "";
@@ -96,11 +95,10 @@ main {
     opacity: 0;
 }
 
-/* Textos */
 .titulo {
     color: rgb(140, 0, 255);
     font-size: 100px;
-    text-shadow: 2px 2px 4px #000000;
+    text-shadow: 2px 2px 4px #ffffff;
     transition: background-color 0.3s ease, transform 0.2s ease;
     
 }
@@ -108,7 +106,7 @@ main {
 .subtitulo {
     color: rgb(0, 123, 255);
     font-size: 50px;
-    text-shadow: 2px 2px 4px #000000;
+    text-shadow: 2px 2px 4px #ffffff;
 }
 
 
@@ -118,15 +116,15 @@ main {
     cursor: pointer;
     border: none;
     border-radius: 5px;
-    background-color: rgb(158, 39, 65);
+    background-color: rgb(155, 0, 34);
     color: rgb(0, 0, 0);
-    box-shadow: 0 4px 6px rgb(255, 0, 0);
+    box-shadow: 0 4px 6px rgb(255, 255, 255);
     transition: background-color 0.3s ease;
     
 }
 
 #botao:hover {
-    background-color: rgb(255, 0, 128);
+    background-color: rgba(214, 0, 0, 0.781);
 }
 
 #container {
@@ -138,7 +136,4 @@ main {
 figure {
     align-items: baseline;
     padding: 5px 20px;
-
-    
-    
 }
