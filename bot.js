@@ -1,7 +1,6 @@
-// CÓDIGO CORRIGIDO
 // Array com as finalizações e suas respectivas imagens
 const submissions = [
-    { sub: "Kimura", imagem: "./https://bjjfanatics.com.br/cdn/shop/articles/KIMURA_1024x1024.jpg?v=1547576652" },
+    { sub: "Kimura", imagem: "./assets/kimura.jpeg" },
     { sub: "Armlock", imagem: "./assets/armlock.jpeg" },
     { sub: "Triângulo", imagem: "./assets/triangulo.webp" },
     { sub: "Americana de Pé", imagem: "./assets/americanadepe.webp" },
@@ -70,4 +69,5 @@ if (botao) {
     console.warn('Elemento com id="botao" não foi encontrado. O script não funcionará como esperado.');
 
 }
+
 
