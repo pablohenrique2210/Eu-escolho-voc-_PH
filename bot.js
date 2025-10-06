@@ -6,7 +6,7 @@
     { sub: "Estrangulamento", imagem: "./Assets/estrangulamento.jpeg" },
     { sub: "Guilhotina", imagem: "./Assets/guilhotina.webp" },
     { sub: "LegLock", imagem: "./Assets/leglock.webp" },
-    { sub: "Mão de Vaca", imagem: "./Assets/maodevaca.webp" },
+    { sub: "Mão de Vaca", imagem: "./Assets/leglock.webp" },
     { sub: "Mata Leão", imagem: "./Assets/mataleao.jpeg" },
     { sub: "Omoplata", imagem: "./Assets/omoplata.webp" },
 ];
@@ -68,6 +68,7 @@ if (botao) {
     console.warn('Elemento com id="botao" não foi encontrado. O script não funcionará como esperado.');
 
 }
+
 
 
 
