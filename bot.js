@@ -1,7 +1,7 @@
 // Array com as finalizações e suas respectivas imagens
 const submissions = [
-    { sub: "Kimura", imagem: "./assets/kimura.jpeg" },
-    { sub: "Armlock", imagem: "./assets/armlock.jpeg" },
+    { sub: "Kimura", imagem: "https://pablohenrique2210.github.io/Eu-escolho-voc-_PH/assets/kimura.jpeg" },
+    { sub: "Armlock", imagem: "https://pablohenrique2210.github.io/Eu-escolho-voc-_PH/assets/armlock.jpeg" },
     { sub: "Triângulo", imagem: "./assets/triangulo.webp" },
     { sub: "Americana de Pé", imagem: "./assets/americanadepe.webp" },
     { sub: "Estrangulamento", imagem: "./assets/estrangulamento.jpeg" },
@@ -68,6 +68,7 @@ if (botao) {
     console.warn('Elemento com id="botao" não foi encontrado. O script não funcionará como esperado.');
 
 }
+
 
 
 
