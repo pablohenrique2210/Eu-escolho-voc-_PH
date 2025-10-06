@@ -1,15 +1,15 @@
 // Array com as finalizações e suas respectivas imagens
     const submissions = [
-    { sub: "Kimura", imagem: "assets/kimura.jpeg" },
-    { sub: "Armlock", imagem: "assets/armlock.jpeg" },
-    { sub: "Triângulo", imagem: "assets/triangulo.webp" },
-    { sub: "Americana de Pé", imagem: "assets/americanadepe.webp" },
-    { sub: "Estrangulamento", imagem: "assets/estrangulamento.jpeg" },
-    { sub: "Guilhotina", imagem: "assets/guilhotina.webp" },
-    { sub: "LegLock", imagem: "assets/leg-lock.webp" },
-    { sub: "Mão de Vaca", imagem: "assets/mao-de-vaca.webp" },
-    { sub: "Mata Leão", imagem: "assets/mata-leao.jpeg" },
-    { sub: "Omoplata", imagem: "assets/omoplata.webp" },
+    { sub: "Kimura", imagem: "./Assets/kimura.jpeg" },
+    { sub: "Armlock", imagem: "./Assets/armlock.jpeg" },
+    { sub: "Triângulo", imagem: "./Assets/triangulo.webp" },
+    { sub: "Americana de Pé", imagem: "./Assets/americanadepe.webp" },
+    { sub: "Estrangulamento", imagem: "./Assets/estrangulamento.jpeg" },
+    { sub: "Guilhotina", imagem: "./Assets/guilhotina.webp" },
+    { sub: "LegLock", imagem: "./Assets/leg-lock.webp" },
+    { sub: "Mão de Vaca", imagem: "./Assets/mao-de-vaca.webp" },
+    { sub: "Mata Leão", imagem: "./Assets/mata-leao.jpeg" },
+    { sub: "Omoplata", imagem: "./Assets/omoplata.webp" },
 ];
 
 
@@ -69,6 +69,7 @@ if (botao) {
     console.warn('Elemento com id="botao" não foi encontrado. O script não funcionará como esperado.');
 
 }
+
 
 
 
